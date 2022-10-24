@@ -1,0 +1,4 @@
+<view >
+	1313
+	<web-view src="{{src}}"></web-view>
+</view>

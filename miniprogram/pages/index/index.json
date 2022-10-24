@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "mp-html": "/components/mp-html/index",
+    "add-tips": "/components/add-tips/index"
+  }
+}

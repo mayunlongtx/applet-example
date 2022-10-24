@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <add-tips />
+  <view style="margin-bottom:150rpx" class="linkContent">
+         <rich-text nodes="{{nodes}}" bindtap="handleAClick"></rich-text>
+          <mp-html content="{{nodes}}" bindlinktap="linktap" copy-link="{{false}}"/>
+     </view>
+
+     <button open-type="share" class='btn-share' hover-class='none' style="background: green;color:#fff">分享</button>
+</view>
